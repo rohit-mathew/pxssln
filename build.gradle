@@ -1,0 +1,30 @@
+ version = '1.0'
+
+ allprojects {
+     apply plugin: 'java'
+     apply plugin: 'idea'
+     apply plugin: 'application'
+     apply plugin: 'maven'
+ }
+
+ task fatJarSecond(type: Jar) {
+     manifest {
+         attributes 'Implementation-Title':'second-challenge',
+                    'Implementation-Version': version,
+                    'Main-Class': 'com.paxos.challenge.second.SecondChallenge'
+     }
+     baseName = "challenge2"
+     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+     with jar
+ }
+
+ task fatJarThird(type: Jar) {
+     manifest {
+         attributes 'Implementation-Title':'third-challenge',
+                    'Implementation-Version': version,
+                    'Main-Class': 'com.paxos.challenge.third.ThirdChallenge'
+     }
+     baseName = "challenge3"
+     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+     with jar
+ }

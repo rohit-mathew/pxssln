@@ -1,0 +1,417 @@
+def codeStyleProfile = '''
+  <component name="CodeStyleProjectProfileManger">                              
+  <option name="PROJECT_PROFILE" />
+  <option name="USE_PROJECT_LEVEL_SETTINGS" value="false" />
+  </component>
+'''
+
+def codeStyleSettings = '''
+  <component name="CodeStyleSettingsManager">
+    <option name="PER_PROJECT_SETTINGS">
+      <value>
+        <option name="JSP_INDENT_OPTIONS">
+          <value>
+            <option name="INDENT_SIZE" value="2" />
+            <option name="CONTINUATION_INDENT_SIZE" value="8" />
+            <option name="TAB_SIZE" value="2" />
+            <option name="USE_TAB_CHARACTER" value="false" />
+            <option name="SMART_TABS" value="false" />
+            <option name="LABEL_INDENT_SIZE" value="0" />
+            <option name="LABEL_INDENT_ABSOLUTE" value="false" />
+          </value>
+        </option>
+        <option name="XML_INDENT_OPTIONS">
+          <value>
+            <option name="INDENT_SIZE" value="2" />
+            <option name="CONTINUATION_INDENT_SIZE" value="8" />
+            <option name="TAB_SIZE" value="2" />
+            <option name="USE_TAB_CHARACTER" value="false" />
+            <option name="SMART_TABS" value="false" />
+            <option name="LABEL_INDENT_SIZE" value="0" />
+            <option name="LABEL_INDENT_ABSOLUTE" value="false" />
+          </value>
+        </option>
+        <option name="OTHER_INDENT_OPTIONS">
+          <value>
+            <option name="INDENT_SIZE" value="4" />
+            <option name="CONTINUATION_INDENT_SIZE" value="8" />
+            <option name="TAB_SIZE" value="4" />
+            <option name="USE_TAB_CHARACTER" value="true" />
+            <option name="SMART_TABS" value="false" />
+            <option name="LABEL_INDENT_SIZE" value="0" />
+            <option name="LABEL_INDENT_ABSOLUTE" value="false" />
+          </value>
+        </option>
+        <option name="LINE_SEPARATOR" value="&#10;" />
+        <option name="INDENT_CASE_FROM_SWITCH" value="false" />
+        <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
+        <option name="ALIGN_MULTILINE_BINARY_OPERATION" value="true" />
+        <option name="ALIGN_MULTILINE_ASSIGNMENT" value="true" />
+        <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true" />
+        <option name="ALIGN_MULTILINE_THROWS_LIST" value="true" />
+        <option name="ALIGN_MULTILINE_EXTENDS_LIST" value="true" />
+        <option name="ALIGN_MULTILINE_PARENTHESIZED_EXPRESSION" value="true" />
+        <option name="SPACE_AFTER_TYPE_CAST" value="false" />
+        <option name="SPACE_BEFORE_ARRAY_INITIALIZER_LBRACE" value="true" />
+        <option name="GENERATE_FINAL_LOCALS" value="true" />
+        <option name="GENERATE_FINAL_PARAMETERS" value="true" />
+        <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="500" />
+        <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="500" />
+        <option name="IMPORT_LAYOUT_TABLE">
+          <value>
+            <package name="" withSubpackages="true" />
+          </value>
+        </option>
+        <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
+        <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
+        <option name="WRAP_COMMENTS" value="true" />
+        <option name="IF_BRACE_FORCE" value="1" />
+        <option name="DOWHILE_BRACE_FORCE" value="3" />
+        <option name="WHILE_BRACE_FORCE" value="1" />
+        <option name="FOR_BRACE_FORCE" value="1" />
+        <option name="JD_ALIGN_PARAM_COMMENTS" value="false" />
+        <option name="JD_ALIGN_EXCEPTION_COMMENTS" value="false" />
+        <option name="JD_ADD_BLANK_AFTER_PARM_COMMENTS" value="true" />
+        <option name="JD_ADD_BLANK_AFTER_RETURN" value="true" />
+        <option name="JD_KEEP_INVALID_TAGS" value="false" />
+        <option name="JD_USE_THROWS_NOT_EXCEPTION" value="false" />
+        <option name="JD_KEEP_EMPTY_PARAMETER" value="false" />
+        <option name="JD_KEEP_EMPTY_EXCEPTION" value="false" />
+        <option name="JD_KEEP_EMPTY_RETURN" value="false" />
+        <option name="JD_PRESERVE_LINE_FEEDS" value="true" />
+        <ADDITIONAL_INDENT_OPTIONS fileType="groovy">
+          <option name="INDENT_SIZE" value="2" />
+          <option name="CONTINUATION_INDENT_SIZE" value="8" />
+          <option name="TAB_SIZE" value="4" />
+          <option name="USE_TAB_CHARACTER" value="false" />
+          <option name="SMART_TABS" value="false" />
+          <option name="LABEL_INDENT_SIZE" value="0" />
+          <option name="LABEL_INDENT_ABSOLUTE" value="false" />
+        </ADDITIONAL_INDENT_OPTIONS>
+        <ADDITIONAL_INDENT_OPTIONS fileType="gsp">
+          <option name="INDENT_SIZE" value="2" />
+          <option name="CONTINUATION_INDENT_SIZE" value="8" />
+          <option name="TAB_SIZE" value="4" />
+          <option name="USE_TAB_CHARACTER" value="false" />
+          <option name="SMART_TABS" value="false" />
+          <option name="LABEL_INDENT_SIZE" value="0" />
+          <option name="LABEL_INDENT_ABSOLUTE" value="false" />
+        </ADDITIONAL_INDENT_OPTIONS>
+        <ADDITIONAL_INDENT_OPTIONS fileType="java">
+          <option name="INDENT_SIZE" value="4" />
+          <option name="CONTINUATION_INDENT_SIZE" value="8" />
+          <option name="TAB_SIZE" value="4" />
+          <option name="USE_TAB_CHARACTER" value="false" />
+          <option name="SMART_TABS" value="false" />
+          <option name="LABEL_INDENT_SIZE" value="0" />
+          <option name="LABEL_INDENT_ABSOLUTE" value="false" />
+        </ADDITIONAL_INDENT_OPTIONS>
+        <ADDITIONAL_INDENT_OPTIONS fileType="js">
+          <option name="INDENT_SIZE" value="4" />
+          <option name="CONTINUATION_INDENT_SIZE" value="8" />
+          <option name="TAB_SIZE" value="4" />
+          <option name="USE_TAB_CHARACTER" value="false" />
+          <option name="SMART_TABS" value="false" />
+          <option name="LABEL_INDENT_SIZE" value="0" />
+          <option name="LABEL_INDENT_ABSOLUTE" value="false" />
+        </ADDITIONAL_INDENT_OPTIONS>
+        <ADDITIONAL_INDENT_OPTIONS fileType="jsp">
+          <option name="INDENT_SIZE" value="2" />
+          <option name="CONTINUATION_INDENT_SIZE" value="8" />
+          <option name="TAB_SIZE" value="2" />
+          <option name="USE_TAB_CHARACTER" value="false" />
+          <option name="SMART_TABS" value="false" />
+          <option name="LABEL_INDENT_SIZE" value="0" />
+          <option name="LABEL_INDENT_ABSOLUTE" value="false" />
+        </ADDITIONAL_INDENT_OPTIONS>
+        <ADDITIONAL_INDENT_OPTIONS fileType="sql">
+          <option name="INDENT_SIZE" value="2" />
+          <option name="CONTINUATION_INDENT_SIZE" value="8" />
+          <option name="TAB_SIZE" value="4" />
+          <option name="USE_TAB_CHARACTER" value="false" />
+          <option name="SMART_TABS" value="false" />
+          <option name="LABEL_INDENT_SIZE" value="0" />
+          <option name="LABEL_INDENT_ABSOLUTE" value="false" />
+        </ADDITIONAL_INDENT_OPTIONS>
+        <ADDITIONAL_INDENT_OPTIONS fileType="txt">
+          <option name="INDENT_SIZE" value="2" />
+          <option name="CONTINUATION_INDENT_SIZE" value="8" />
+          <option name="TAB_SIZE" value="2" />
+          <option name="USE_TAB_CHARACTER" value="false" />
+          <option name="SMART_TABS" value="false" />
+          <option name="LABEL_INDENT_SIZE" value="0" />
+          <option name="LABEL_INDENT_ABSOLUTE" value="false" />
+        </ADDITIONAL_INDENT_OPTIONS>
+        <ADDITIONAL_INDENT_OPTIONS fileType="xml">
+          <option name="INDENT_SIZE" value="2" />
+          <option name="CONTINUATION_INDENT_SIZE" value="8" />
+          <option name="TAB_SIZE" value="2" />
+          <option name="USE_TAB_CHARACTER" value="false" />
+          <option name="SMART_TABS" value="false" />
+          <option name="LABEL_INDENT_SIZE" value="0" />
+          <option name="LABEL_INDENT_ABSOLUTE" value="false" />
+        </ADDITIONAL_INDENT_OPTIONS>
+      </value>
+    </option>
+    <option name="USE_PER_PROJECT_SETTINGS" value="true" />
+  </component>
+'''
+
+def runConfigs = '''
+<component name="ProjectRunConfigurationManager">
+<configuration default="false" name="AllTests" type="JUnit" factoryName="JUnit">
+<extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+<module name="" />
+<option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+<option name="ALTERNATIVE_JRE_PATH" value="" />
+<option name="PACKAGE_NAME" value="" />
+<option name="MAIN_CLASS_NAME" value="" />
+<option name="METHOD_NAME" value="" />
+<option name="TEST_OBJECT" value="package" />
+<option name="VM_PARAMETERS" value="" />
+<option name="PARAMETERS" value="" />
+<option name="WORKING_DIRECTORY" value="" />
+<option name="ENV_VARIABLES" />
+<option name="PASS_PARENT_ENVS" value="true" />
+<option name="TEST_SEARCH_SCOPE">
+<value defaultName="wholeProject" />
+</option>
+<envs />
+<patterns />
+<RunnerSettings RunnerId="Profile ">
+<option name="myExternalizedOptions" value="&#10;additional-options2=onexit\\=snapshot&#10;" />
+</RunnerSettings>
+<RunnerSettings RunnerId="Run" />
+<ConfigurationWrapper RunnerId="Run" />
+<method />
+</configuration>
+<configuration default="false" name="ckservice" type="Remote" factoryName="Remote">
+<module name="ckservice" />
+<option name="USE_SOCKET_TRANSPORT" value="true" />
+<option name="SERVER_MODE" value="false" />
+<option name="SHMEM_ADDRESS" />
+<option name="HOST" value="localhost" />
+<option name="PORT" value="9010" />
+<method />
+</configuration>
+<configuration default="false" name="ckconsumer" type="Remote" factoryName="Remote">
+<module name="ckconsumer" />
+<option name="USE_SOCKET_TRANSPORT" value="true" />
+<option name="SERVER_MODE" value="false" />
+<option name="SHMEM_ADDRESS" />
+<option name="HOST" value="localhost" />
+<option name="PORT" value="9020" />
+<method />
+</configuration>
+<configuration default="false" name="cksearch" type="Remote" factoryName="Remote">
+<module name="cksearch" />
+<option name="USE_SOCKET_TRANSPORT" value="true" />
+<option name="SERVER_MODE" value="false" />
+<option name="SHMEM_ADDRESS" />
+<option name="HOST" value="localhost" />
+<option name="PORT" value="9030" />
+<method />
+</configuration>
+<configuration default="false" name="ckrowmaster" type="Remote" factoryName="Remote">
+<module name="ckrowmaster" />
+<option name="USE_SOCKET_TRANSPORT" value="true" />
+<option name="SERVER_MODE" value="false" />
+<option name="SHMEM_ADDRESS" />
+<option name="HOST" value="localhost" />
+<option name="PORT" value="9040" />
+<method />
+</configuration>
+<configuration default="false" name="ckinit" type="Remote" factoryName="Remote">
+<module name="ckinit" />
+<option name="USE_SOCKET_TRANSPORT" value="true" />
+<option name="SERVER_MODE" value="false" />
+<option name="SHMEM_ADDRESS" />
+<option name="HOST" value="localhost" />
+<option name="PORT" value="9001" />
+<method />
+</configuration>
+<configuration default="false" name="cksim" type="Remote" factoryName="Remote">
+<module name="cksim" />
+<option name="USE_SOCKET_TRANSPORT" value="true" />
+<option name="SERVER_MODE" value="false" />
+<option name="SHMEM_ADDRESS" />
+<option name="HOST" value="localhost" />
+<option name="PORT" value="9000" />
+<method />
+</configuration>
+<configuration default="false" name="ckwsapplication" type="Remote" factoryName="Remote">
+<module name="ckwsapplication" />
+<option name="USE_SOCKET_TRANSPORT" value="true" />
+<option name="SERVER_MODE" value="false" />
+<option name="SHMEM_ADDRESS" />
+<option name="HOST" value="localhost" />
+<option name="PORT" value="9070" />
+<method />
+</configuration>
+</component>
+'''
+
+def protocConf = '''
+<component name="FacetManager">
+    <facet type="protobuf" name="Protobuf Facet">
+        <configuration>
+            <option name="COMPILER_OUTPUT_SOURCE_DIRECTORY" value="$MODULE_DIR$/protogen" />
+        </configuration>
+    </facet>
+</component>
+'''
+
+def compilerConf = '''
+<component name="CompilerConfiguration">                                      
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions>
+        <entry name=".+\\.(properties|xml|html|dtd|tld)" />
+        <entry name=".+\\.(gif|png|jpeg|jpg)" />
+    </resourceExtensions>
+    <wildcardResourcePatterns>
+        <entry name="?*.properties" />
+        <entry name="?*.xml" />
+        <entry name="?*.gif" />
+        <entry name="?*.png" />
+        <entry name="?*.jpeg" />
+        <entry name="?*.jpg" />
+        <entry name="?*.html" />
+        <entry name="?*.dtd" />
+        <entry name="?*.tld" />
+        <entry name="?*.properties" />
+        <entry name="?*.xml" />
+        <entry name="?*.html" />
+        <entry name="?*.dtd" />
+        <entry name="?*.tld" />
+        <entry name="?*.gif" />
+        <entry name="?*.png" />
+        <entry name="?*.jpeg" />
+        <entry name="?*.jpg" />
+        <entry name="?*.met" />
+        <entry name="?*.sim" />
+        <entry name="?*.csv" />
+        <entry name="?*.cer" />
+        <entry name="?*.json" />
+        <entry name="?*.template" />
+        <entry name="?*.vcf" />
+        <entry name="?*.plist" />
+        <entry name="?*.p12" />
+        <entry name="?*.index" />
+        <entry name="?*.ics" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>         
+        <profile default="true" name="Default" enabled="true">
+            <processorPath useClasspath="true" />
+        </profile>
+    </annotationProcessing>
+</component>
+'''
+
+apply plugin: 'idea-utils'
+
+idea {
+    project {
+        vcs {
+            vcs = 'Git'
+        }
+        //if you want to set specific jdk and language level
+        jdkName = '1.8'
+        languageLevel = '1.8'
+    }
+}
+
+subprojects {
+    idea {
+        afterEvaluate { Project project ->
+            project.tasks.idea.dependsOn project.tasks.matching {it.name == 'compileProto'}
+        }
+        module {
+            sourceDirs += file('protogen')
+            sourceDirs += file('src')
+            sourceDirs += file('scripts')
+
+            testSourceDirs += file('test/unit')
+            testSourceDirs += file('test/functional')
+        }
+    }
+    afterEvaluate { proj ->
+        tasks.withType(GenerateIdeaModule).each { task ->
+            task.doLast {
+                        def cpList = []
+                        configurations.runtime.resolvedConfiguration.getFirstLevelModuleDependencies({ it instanceof ExternalDependency } as Spec).each { ResolvedDependency i ->
+                            i.getAllModuleArtifacts().each { artifact ->
+                                cpList += artifact.getFile().getCanonicalPath()
+                            }
+                        }
+                        configurations.runtime.resolvedConfiguration.getFirstLevelModuleDependencies({ it instanceof ProjectDependency } as Spec).each { ResolvedDependency i ->
+                            i.each { dep ->
+                                cpList += "${project.rootProject.projectDir}/.idea_build/production/" + dep.getModuleName()
+                                dep.getChildren().each { child ->
+                                    child.getAllModuleArtifacts().each { trans ->
+                                        def depPath = trans.getFile().toString()
+                                        if(depPath.startsWith(project.rootProject.projectDir.toString()) && !depPath.contains("thirdparty")) {
+                                            cpList += "${project.rootProject.projectDir}/.idea_build/production/" + trans.getName()
+                                        } else {
+                                            cpList += depPath
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                def cpfile = new File("${project.rootProject.projectDir}/.classpath.${project.name}")
+                cpfile.text = cpList.unique().join(':')
+            }
+        }
+    }
+}
+
+allprojects {
+    idea.module {
+        iml {
+            withXml { pXml ->
+                def moduleNode = pXml.asNode()
+                moduleNode.append(new XmlParser().parseText(protocConf));
+            }
+        }
+        downloadSources true
+        downloadJavadoc false
+    }
+}
+
+/* Search component with given name */
+def findComponent(project, name) {
+    project.component.find { it.@name == name }
+}
+
+/* Set value for option node with given name */
+def changeOption(node, name, value) {
+    node.option.find { it.@name == name }.@value = value
+}
+
+idea.project.ipr {
+    withXml { pXml ->
+        // Add run configurations
+        def projectNode = pXml.asNode()
+        projectNode.append(new XmlParser().parseText(runConfigs))
+        projectNode.append(new XmlParser().parseText(codeStyleProfile));
+        projectNode.append(new XmlParser().parseText(codeStyleSettings));
+        projectNode.append(new XmlParser().parseText(compilerConf));
+
+        def prm = findComponent projectNode,  'ProjectRootManager'
+        prm.output.@url = 'file://$PROJECT_DIR$/.idea_build'
+    }
+}
+
+cleanIdea {
+    def tree = fileTree(dir: rootProject.projectDir, include: '.classpath.*')
+    delete tree
+}
+
+task installGitHooks(type: Copy) {
+    from new File(project.rootProject.projectDir, "gradle/hooks")
+    into new File(project.rootProject.projectDir, ".git/hooks")
+}
+
+tasks.idea.dependsOn cleanIdea
+tasks.idea.dependsOn installGitHooks
