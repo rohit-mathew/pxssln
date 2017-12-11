@@ -1,5 +1,11 @@
 # Second Challenge
 
+##Setup IDE (Idea)
+```
+./gradlew idea
+open pxssln.ipr
+```
+
 ## Big O Notation
 
 n --> Length of the array
@@ -12,8 +18,14 @@ Solution's time complexity is O(n^2) as we go over the whole array for every ele
 
 ## How to build and run
 ```
+//build
 ./gradlew fatJarSecond
-java -jar build/libs/challenge2-1.0.jar ~/Desktop/price.txt 10000
+//For a pair of prices
+java -jar build/libs/challenge2-1.0.jar ~/Desktop/price.txt 3000 true
+//For a trio of prices
+//Ignore the "Duo not possible" messages
+java -jar build/libs/challenge2-1.0.jar ~/Desktop/price.txt 10000 false
+
 ```
 
 # Third Challenge
