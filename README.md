@@ -1,6 +1,6 @@
 # Second Challenge
 
-##Setup IDE (Idea)
+## Setup IDE (Idea)
 ```
 ./gradlew idea
 open pxssln.ipr
@@ -13,17 +13,22 @@ n --> Length of the array
 Solution's time complexity is O(n) as we go over every element in the array only once
 
 ## Big O notation (Bonus Question)
-Solved in com.paxos.challenge.second.SecondChallenge
+Solved in com.paxos.challenge.second.SecondChallenge#findThreePrices
+
 Solution's time complexity is O(n^2) as we go over the whole array for every element in the array
 
 ## How to build and run
+Build
 ```
-//build
 ./gradlew fatJarSecond
-//For a pair of prices
+```
+To get the solution for a pair of prices
+```
 java -jar build/libs/challenge2-1.0.jar ~/Desktop/price.txt 3000 true
-//For a trio of prices
-//Ignore the "Duo not possible" messages
+```
+To get the solution for a trio of prices
+(Ignore the "Duo not possible" messages)
+```
 java -jar build/libs/challenge2-1.0.jar ~/Desktop/price.txt 10000 false
 
 ```
